@@ -1,0 +1,26 @@
+{
+  "name": "learn_grapgql",
+  "version": "1.0.0",
+  "description": "Learn GraphQL",
+  "main": "server.js",
+  "author": "liuwei",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --experimental-modules server.mjs",
+    "start": "node scripts/prestart.js"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "mongodb": "^3.1.0",
+    "mongoose": "^5.1.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-latest-node": "^1.0.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}
